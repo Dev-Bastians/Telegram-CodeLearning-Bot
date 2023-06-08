@@ -1,7 +1,7 @@
 // Accuiring necessary modules
 const TelegramBot = require('node-telegram-bot-api'); 
 //Telegram Bot Token
-const token = '773778864:AAGE4wBBkYfIXj2oxn5WWCwJ-lrQ1GrRLoE';
+const token = '<your-telegram-bot-token>';
 const bot = new TelegramBot(token, {polling: true});
 
 //Languages CoderBot can teach	
